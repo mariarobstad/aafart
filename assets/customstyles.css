@@ -1,1 +1,4 @@
-customstyles.css
+#hero {
+	min-height: 300px;
+	background: #1edbb1;
+}
