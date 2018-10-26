@@ -9,6 +9,7 @@
 	object-fit: cover;
 }
 
+<<<<<<< HEAD
 .container, .row {
 	margin-bottom: 40px;
 }
@@ -16,3 +17,8 @@
 .col {
 	background: #1edbb1;
 }
+=======
+body{
+	background-color: #f6f3eb
+}
+>>>>>>> 3e29cb63cf31416df12d72635642bd9d82180dbb
