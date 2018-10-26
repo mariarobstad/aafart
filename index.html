@@ -8,6 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/customstyles.css">
+
+   <title>Odense Aafart</title>
+</head>
+<body>
+
     <!--- NAVIGATION  start--->
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -16,13 +21,29 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <div id="language-select">
+        <ul>
+          <li>DA</li>
+          <li>EN</li>
+          <li>DE</li>
+          <li>CH</li>
+        </ul>
+      </div>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Hjem <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Turbåde og sejlplan</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Turbåde
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Sejlplan</a>
+              <a class="dropdown-item" href="#">Turbådene</a>
+              <a class="dropdown-item" href="#">Lej en turbåd</a>
+            </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,8 +51,9 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Vandcykler</a>
+              <a class="dropdown-item" href="#">Lej en turbåd</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Odense Kano Halløj</a>
+              <a class="dropdown-item kano" href="#">Odense Aarfartens Kanoudlejning</a>
             </div>
           </li>
          <li class="nav-item dropdown">
@@ -40,7 +62,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Events</a>
-              <a class="dropdown-item" href="#">Firmaarrangementer</a>
+              <a class="dropdown-item firma" href="#">Firmaarrangementer</a>
             </div>
           </li>
         <li class="nav-item dropdown">
@@ -61,10 +83,6 @@
     </nav>
         </div>
     <!---Navigation end --->
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
 
 <div class="container">
   <div id="hero" class="row">
