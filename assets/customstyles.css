@@ -18,6 +18,12 @@
 	padding: 15px;
 }
 
+hr {
+	background-image: url(images/tree-border.png);
+	background-repeat: repeat-x;
+	height: 11px;
+}
+
 body {
 	background-color: #f6f3eb
 }
