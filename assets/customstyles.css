@@ -15,7 +15,10 @@
 
 .col {
 	background: #1edbb1;
+	border-radius: 4px;
+	padding: 15px;
 }
+
 body {
 	background-color: #f6f3eb
 }
@@ -25,7 +28,7 @@ body {
 }
 
 .firma {
-	background: #f50 !important;
+	background: #afe2ed !important;
 }
 
 .kano {
@@ -48,8 +51,19 @@ body {
 }
 
 #language-select ul li {
-	background: #ccc;
+	background: #eee;
 	border-radius: 2px;
 	cursor: pointer;
 	margin-bottom: 7px;
+}
+
+.col-link {
+	display: block;
+	max-width: 100%;
+}
+
+.feature-image {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
 }
