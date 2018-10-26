@@ -1,3 +1,11 @@
+a {
+	color: #A5C882;
+}
+
+a:hover {
+color: #4E6766;
+}
+
 #hero {
 	min-height: 300px;
 	background: #1edbb1;
@@ -158,4 +166,8 @@ input[type=submit] {
 =======
 #carouselExampleIndicators {
 	margin-bottom: 20px;
+}
+
+.breadcrumb {
+	background: none;
 }
