@@ -38,7 +38,7 @@ body {
 	left: 0;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
-	background: #fff; 
+	background: #fff;
 }
 
 #language-select ul {
@@ -48,6 +48,28 @@ body {
 }
 
 #language-select ul li {
+	background: #ccc;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-bottom: 7px;
+}
+
+#volume {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #ff5;
+}
+
+#volume ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 10px;
+}
+
+#volume ul li {
 	background: #ccc;
 	border-radius: 2px;
 	cursor: pointer;
