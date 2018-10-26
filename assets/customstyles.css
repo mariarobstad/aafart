@@ -41,7 +41,7 @@ body {
 	left: 0;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
-	background: #fff; 
+	background: #fff;
 }
 
 #language-select ul {
@@ -57,6 +57,7 @@ body {
 	margin-bottom: 7px;
 }
 
+<<<<<<< HEAD
 .col-link {
 	display: block;
 	max-width: 100%;
@@ -66,4 +67,26 @@ body {
 	width: 100%;
 	height: 200px;
 	object-fit: cover;
+=======
+#volume {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #ff5;
+}
+
+#volume ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 10px;
+}
+
+#volume ul li {
+	background: #ccc;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-bottom: 7px;
+>>>>>>> b34416977061c5c1bbd8a8d9db09ac9d02457706
 }
