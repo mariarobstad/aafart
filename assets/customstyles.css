@@ -140,7 +140,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+	float: right;
 }
 
 /* Floating column for labels: 25% width */
