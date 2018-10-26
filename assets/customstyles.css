@@ -14,8 +14,7 @@
 }
 
 .col {
-	background: #1edbb1;
-	border-radius: 4px;
+	/*background: #1edbb1;*/
 	padding: 15px;
 }
 
@@ -63,10 +62,16 @@ body {
 	max-width: 100%;
 }
 
+.feature-box {
+	border-radius: 4px;
+	padding: 20px;
+}
+
 .feature-image {
 	width: 100%;
 	height: 200px;
 	object-fit: cover;
+	margin-bottom: 20px;
 }
 
 #volume {
@@ -144,4 +149,7 @@ input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
+=======
+#carouselExampleIndicators {
+	margin-bottom: 20px;
 }
