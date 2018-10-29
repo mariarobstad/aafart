@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-color: #4E6766;
+	color: #4E6766;
 }
 
 .card-img-top {
@@ -40,7 +40,7 @@ color: #4E6766;
 	margin-bottom: 40px;
 }
 
-.col {
+.col-md-4, .col-md-8 {
 	/*background: #1edbb1;*/
 	padding: 15px;
 }
@@ -49,6 +49,7 @@ hr {
 	background-image: url(images/tree-border.png);
 	background-repeat: repeat-x;
 	height: 11px;
+	margin-top: 0px;
 }
 
 body {
@@ -67,8 +68,12 @@ body {
 	background: #ece !important;
 }
 
-.aarskort {
+.ltgreenbg {
 	background: #d8e0aa;
+}
+
+#rutevejl {
+	width: 100%;
 }
 
 #language-select {
@@ -226,7 +231,13 @@ break points, etc
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+  
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
+
+  .col-md-4, .col-md-8 {
+  	margin-bottom: 50px;
+  }
+}
