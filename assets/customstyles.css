@@ -14,6 +14,8 @@ Secondary colors:
 #64a6db bright dusty blue (link on dusty blue bg)
 #c0ccd6 very light dusty blue (link hover on dusty blue bg)
 
+#d8e0aa dusty light green
+
 Firma-event:
 #b3c4d1 firma background
 
@@ -66,7 +68,7 @@ body {
 }
 
 .aarskort {
-	background: #adba65;
+	background: #d8e0aa;
 }
 
 #language-select {
@@ -76,7 +78,7 @@ body {
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	background: #fff;
-	z-index: 10000000;
+	z-index: 1500;
 }
 
 #language-select ul {
