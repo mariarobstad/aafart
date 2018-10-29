@@ -17,7 +17,8 @@
 </head>
 <body>
 
-    <!--- NAVIGATION  start--->
+<!--- Language selector + accessibility ---> 
+
 <div class="container">
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,6 +36,8 @@
           <li><i style="font-size:24px" class="fa">&#xf028;</i></li>
         </ul>
    </div>
+
+<!--- Top navigation --->
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -83,20 +86,9 @@
     </div>
   </nav>
 </div>
-    <!---Navigation end --->
 
+<!---Slider hero, full width --->
 
-<!---Hero start--->
-
-<!--- Simple hero
-  <div id="hero" class="row">
-    <div class="col">
-      i need a hero
-    </div>
-  </div>
-simlpe hero end--->
-
-<!---slider hero start--->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -136,46 +128,13 @@ simlpe hero end--->
     <span class="sr-only">Next</span>
   </a>
 </div>
-<!---Slider hero end--->
 
-<!---Hero end--->
-    <div class="container">
-  <div class="row">
-    <hr>
-    <div class="col">
-      <hr>
-      <div class="card">
-        <img class="card-img-top" src="assets/images/sejlplan.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Sejlplan</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-      </div>
-    </div>
-    <div class="col">
-      <hr>
-      <div class="card">
-        <img class="card-img-top" src="assets/images/åbningstider.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Åbningstider</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-      </div>
-    </div>
-    <div class="col">
-      <hr>
-      <div class="card">
-        <img class="card-img-top" src="assets/images/priser.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Priser</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-      </div>
-    </div>
-  </div>
+<!--- Main content --->
+
+<div class="container">
+
+  <!--- Row 1: Sejlplan, Årskort --->
+
   <div class="row">
     <div class="col">
       <hr>
@@ -185,20 +144,25 @@ simlpe hero end--->
       <p>De næste par events</p>
     </div>
     <div class="col">
-      <div class="feature-box firma">
-          <img class="feature-image" src="assets/images/firmaarrangement.jpg" alt="Firmaarrangementer med Odense Aafart" />
-          <h3>Firmaarrangementer</h3>
-          <p>Til vands og til lands &ndash; hold din næste firmaudflugt i Odense.</p>
-          <a href="#" class="btn btn-primary">Skal vi?</a>
+      <div class="feature-box aarskort">
+        <img class="feature-image" src="assets/images/cover.jpg" alt="Firmaarrangementer med Odense Aafart" />
+        <h2>Årskort</h2>
+        <h3>En verden af oplevelser venter</h3>
+        <p>Køb årskort til Odense Aafart</a> og få hundredevis af oplevelser gratis &ndash; plus vilde tilbud på eksklusive events &ndash; året rundt.</p>
+        <a href="#" class="btn btn-primary">Køb årskort</a>
       </div>
     </div>
   </div>
+
+  <!--- Row 2: Åbningstider og priser, kort/rutevejl. --->
+
+  
+
+  <!--- Row 3: Firma-events --->
+
   <div id="" class="row">
     <div class="col">
-      <h3>Kontaktinformation</h3>
-      <p>Odense Aafart<br>Filosofgangen 30B<br>5000 Odense C</p>
-      <p>Telefon: +45 66 10 70 80</p>
-      <p>E-mail: <a href="mailto:odense@aafart.dk" target="_top">odense@aafart.dk</a></p>
+      
     </div>
   </div>
   <!--div id="" class="row">
@@ -255,22 +219,35 @@ simlpe hero end--->
   </div>
 </div>
 
+<!--- Footer --->
+
 <footer class="container-fluid">
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2>Køb billetter</h2>
+        <h2>En verden af oplevelser</h2>
+        <p><a href="#">Køb årskort til Odense Aafart</a> og få hundredevis af oplevelser gratis &ndash; plus vilde tilbud på eksklusive events &ndash; året rundt.</p>
+        <p>Betal sikkert online med: </p>
         <i class="fa">&#xf1f0;</i>
         <i class="fa">&#xf1f3;</i>
         <i class="fa">&#xf1f2;</i>
       </div>
-      <div clas="col">
-        <h2></h2>
+      <div class="col">
+        <h2>Gå ikke glip af et eventyr</h2>
+        <p>Få nyhedsbrevet og få mest ud af dit årskort. Vi inviterer hele tiden på spændende og eksklusive oplevelser i hjertet af Odense.</p>
+        <h3>Få nyhedsbrevet</h3>
+        <form class="form-inline">
+          <div class="form-group mb-2">
+            <input type="text" class="form-control-plaintext" id="staticEmail2" placeholder="Indtast email-adresse">
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Tilmeld</button>
+        </form>        
       </div>
       <div class="col">
-        <h2></h2>
-        <i class="fa">&#xf082;</i>
-        <i class="fa">&#xf16d;</i>
+        <h2>Kontakt</h2>
+        <p>Odense Aafart<br>Filosofgangen 30B<br>5000 Odense C</p>
+        <p>Telefon: +45 66 10 70 80<br />E-mail: <a href="mailto:odense@aafart.dk" target="_top">odense@aafart.dk</a></p>
+        <p><a href="#"><i class="fa">&#xf082;</i></a><a href="#"><i class="fa">&#xf16d;</i></a></p>
       </div>
     </div>
   </div>
