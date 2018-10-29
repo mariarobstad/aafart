@@ -1,3 +1,24 @@
+/* ---------------------
+colors 
+------------------------
+
+Brand colors:
+
+#f6f3eb eggshell
+#adba65 dusty green
+#7f9eb5 dusty blue
+
+Secondary colors:
+
+#223747 dark dusty blue
+
+Firma-event:
+#b3c4d1 firma background
+
+
+----------------------*/
+
+
 a {
 	color: #A5C882;
 }
@@ -41,7 +62,7 @@ body {
 }
 
 .firma {
-	background: #afe2ed !important;
+	background: #bad8d3 !important;
 }
 
 .kano {
@@ -115,6 +136,35 @@ body {
 	max-height: 300px;
 	object-fit: cover;
 }
+
+/* ---------------------
+footer 
+----------------------*/
+
+footer {
+	background-color: #7f9eb5;
+	margin-bottom: 0px;
+	color: #223747;
+	padding: 40px;
+}
+
+footer * .containter, footer * .row {
+	margin-bottom: 0px;
+}
+
+footer * .fa {
+	font-size: 38px;
+}
+
+footer * h2 {
+	font-size: 1.2em;
+}
+
+
+/* ---------------------
+forms 
+----------------------*/
+
 
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
