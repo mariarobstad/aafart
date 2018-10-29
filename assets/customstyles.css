@@ -119,29 +119,6 @@ body {
 }
 
 /* ---------------------
-footer
-----------------------*/
-
-footer {
-	background-color: #7f9eb5;
-	margin-bottom: 0px;
-	color: #223747;
-	padding: 40px;
-}
-
-footer * .containter, footer * .row {
-	margin-bottom: 0px;
-}
-
-footer * .fa {
-	font-size: 38px;
-}
-
-footer * h2 {
-	font-size: 1.2em;
-}
-
-/* ---------------------
 forms
 ----------------------*/
 
