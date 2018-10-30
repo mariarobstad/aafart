@@ -28,6 +28,7 @@ Firma-event:
 
 h1, h2, h3, h4, h5, h6{
 	font-weight: 700;
+	color: #000000;
 }
 
 h2 {
@@ -253,6 +254,25 @@ footer * button[type=submit] {
 footer * ::placeholder {
 	color: #a7c2d6;
 }
+/* ---------------------
+Dropdown
+----------------------*/
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+@media(min-width:  768px) {
+  .dropdown-menu {
+    margin-top: 0; // fixes closing on slow mouse transition
+  }
+}
+
 
 /* ---------------------
 break points, etc
