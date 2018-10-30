@@ -52,6 +52,10 @@ a:hover {
 	height: 150px;
 }
 
+.card {
+	cursor: pointer;
+}
+
 .card:hover {
 	background-color: #d8e0aa;
 }
@@ -211,6 +215,9 @@ tables
 	color: #ccc;
 }
 
+th {
+	font-weight: 700;
+}
 
 /* ---------------------
 forms
@@ -339,6 +346,10 @@ break points, etc
 
   .col-md-4, .col-md-8 {
   	margin-bottom: 50px;
+  }
+
+  #firma, #third-card-event {
+  	display: none;
   }
 }
 
