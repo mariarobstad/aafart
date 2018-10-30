@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 700;
 }
 
+h2 {
+	font-size: 1.2em;
+}
+
 a {
 	color: #A5C882;
 }
@@ -41,6 +45,10 @@ a:hover {
 .card-img-top {
 	height: 250px;
 	object-fit: cover;
+}
+
+#events-preview * .card-img-top {
+	height: 150px;
 }
 
 .card:hover {
