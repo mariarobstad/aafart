@@ -145,7 +145,7 @@
       <h3>Næste events</h3>
       <div class="" id="events-preview">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="card m-0">
               <img class="card-img-top" src="assets/images/sejlplan.jpg" alt="Card image cap">
                 <div class="card-body">
@@ -154,7 +154,7 @@
                 </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="card">
               <img class="card-img-top" src="assets/images/sejlplan.jpg" alt="Card image cap">
                 <div class="card-body">
@@ -163,7 +163,7 @@
                 </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="card">
               <img class="card-img-top" src="assets/images/sejlplan.jpg" alt="Card image cap">
                 <div class="card-body">
@@ -189,13 +189,11 @@
   <!--- Row 2: Åbningstider og priser, kort/rutevejl. --->
 
   <div id="" class="row">
-    <div class="col-md-4">
-      <!--div class="feature-box ltgreenbg"-->
+    <div class="col-md-3">
+      <hr>
         <h3>Åbningstider</h3>
-        <p>Der er desværre vinterlukket for normale afgange og udlejning af vandcykler.</p>
-        <p>Men tjek vores Event-side og køb billet til en af vores mange båd-arrangementer, vi holder henover vinteren!<br>Hvis du har nogle spørgsmål, så skriv endelig til os på vores mail, eller kontakt os gennem kontaktformularen.</p>
-        <div class="feature-box">
-          <form action="action_page.php">
+        <p>Kiosken og de almindelige bådture har desværre lukket i øjeblikket (i vinterhalvåret fra oktober til og med marts), men vi har altid et væld af events på åen. <a href="events.html">Se kommende events.</a></p>
+          <!--form action="action_page.php">
             <div class="row">
               <div class="col-25">
                 <label for="fname">Navn</label>
@@ -215,11 +213,92 @@
             <div class>
               <input type="submit" value="Send">
             </div>
-          </form>
-        </div>
-      <!--/div-->
+          </form-->
+          <table class="table table-bordered inactive-table">
+            <thead>
+              <tr>
+                <th scope="col">Denne uge</th>
+                <th scope="col">Åbningstid</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Mandag 30/1</th>
+                <td>Lukket</td>
+              </tr>
+              <tr>
+                <th scope="row">Tirsdag</th>
+                <td>Lukket</td>
+              </tr>
+              <tr>
+                <th scope="row">Onsdag</th>
+                <td>Lukket</td>
+              </tr>
+              <tr>
+                <th scope="row">Torsdag</th>
+                <td>Lukket</td>
+              </tr>
+              <tr>
+                <th scope="row">Fredag</th>
+                <td>Lukket</td>
+              </tr>
+              <tr>
+                <th scope="row">Lørdag</th>
+                <td>Lukket</td>
+              </tr>
+              <tr>
+                <th scope="row">Søndag</th>
+                <td>Lukket</td>
+              </tr>
+            </tbody>
+          </table>
+
     </div>
-    <div class="col-md-8">
+    <div class="col-md-3">
+      <hr>
+      <h3>Priser</h3>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Ugedag</th>
+                <th scope="col">Åbningstid</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Mandag</th>
+                <td>Mark</td>
+              </tr>
+              <tr>
+                <th scope="row">Tirsdag</th>
+                <td>Jacob</td>
+              </tr>
+              <tr>
+                <th scope="row">Onsdag</th>
+                <td>Larry the Bird</td>
+              </tr>
+              <tr>
+                <th scope="row">Torsdag</th>
+                <td>Larry the Bird</td>
+              </tr>
+              <tr>
+                <th scope="row">Fredag</th>
+                <td>Larry the Bird</td>
+              </tr>
+              <tr>
+                <th scope="row">Lørdag</th>
+                <td>Larry the Bird</td>
+              </tr>
+              <tr>
+                <th scope="row">Søndag</th>
+                <td>Larry the Bird</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="col-md-6">
+      <hr>
       <h3>Rutevejledning</h3>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2266.032244882679!2d10.378609751249776!3d55.39234312710641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cdff9dffa3345%3A0x5a094802ed6d986a!2sOdense+Aafart!5e0!3m2!1sda!2sdk!4v1540552226592" id="rutevejl" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
@@ -229,7 +308,9 @@
 
   <div id="" class="row">
     <div class="col">
-      <h3>Firma-arrangementer</h3>
+      <div class="feature-box firma">
+        <h3>Firma-arrangementer</h3>
+      </div>
     </div>
   </div>
   <!--div id="" class="row">
