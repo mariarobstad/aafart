@@ -154,6 +154,20 @@ img {
 	object-fit: cover;
 }
 
+.front-caption h5 {
+	color: white;
+	font-size: 50px;
+	margin: 20px;
+	text-shadow: 2px 2px #223747;
+}
+
+.front-caption p {
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+	text-shadow: 2px 2px #223747;
+}
+
 .event-caption h5 {
 	color: white;
 	font-size: 90px;
