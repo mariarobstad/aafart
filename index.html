@@ -185,7 +185,7 @@
         <h3>Årskort</h3>
         <h4>En verden af oplevelser venter</h4>
         <p>Køb årskort til Odense Aafart</a> og få hundredevis af oplevelser gratis &ndash; plus vilde tilbud på eksklusive events &ndash; året rundt.</p>
-        <a href="#" class="btn btn-primary">Læs mere om årskort</a><a href="#" class="btn btn-primary">Køb årskort</a>
+        <a href="#" class="btn btn-primary btn-space">Læs om årskort</a><a href="#" class="btn btn-primary">Køb årskort</a>
       </div>
     </div>
   </div>
@@ -298,52 +298,56 @@
   <!--- Row 3: Firma-events --->
 
   <div id="firma" class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
       <hr/>
       <h3>Kontakt os</h3>
+      <p>Skriv til os, hvis du har spørgsmål, ønsker at bestille eller andet. Vi ringer dig gerne op, hvis du ønsker det.
       <form>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Navn</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Fornavn og efternavn">
+          <!--label for="exampleFormControlInput1">Navn</label-->
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Indtast navn">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Telefon</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+45 12 34 56 78">
+          <!--label for="exampleFormControlInput1">Telefon</label-->
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Indtast evt. telefonnr.">
         </div>
-        <div class="container" id="call-checkbox">
-          <div class="input-group">
-            <div class="input-group-text">
-              <input type="checkbox" checked="">
-              <p>Ring mig op</p>
-            </div>
+        <!--div class="container" id="call-checkbox"-->
+          <div class="form-group">
+            
+              <input type="checkbox">
+              <span class="checkbox-span">Ring mig op, tak</span>
+            
           </div>
+          <!--label for="exampleFormControlInput1">E-mail</label-->
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Indtast email-adresse">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlInput1">E-mail</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="navn@eksempel.dk">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Emne</label>
+          <!--label for="exampleFormControlSelect1">Emne</label-->
           <select class="form-control" id="exampleFormControlSelect1">
-            <option>–––//–––</option>
-            <option>Spørgsmål</option>
+            <option>Vælg emne</option>
+            <option>Billetkøb</option>
+            <option>Bestilling af turbåd</option>
+            <option>Bestilling af årskort</option>
             <option>Firmaarrangement</option>
             <option>Ris og ros</option>
-            <option>5</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Besked</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <!--label for="exampleFormControlTextarea1">Besked</label-->
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Skriv besked"></textarea>
         </div>
+        <a href="#" class="btn btn-primary">Send</a>
+        <!--/div-->
       </form>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-8">
       <div class="feature-box firma">
-        <img class="feature-image" src="assets/images/firmaarrangement.jpg" alt="Firmaarrangementer med Odense Aafart" />
-        <h3>Firma-arrangementer</h3>
-        <h4>Giv dine ansatte og kollegaer en unik oplevelse</h4>
+        <img class="feature-image" src="assets/images/firmaarrangement.jpg" alt="Firma-arrangementer med Odense Aafart" />
+        <h3>Unikke firma-arrangementer</h3>
+        <h4>Giv dig selv og dine kolleger <br />en fantastisk dag på Åen</h4>
         <p>Odense Aafart tilbyder unikke team building-dage og arrangerer din firmafest i de skønneste omgivelser.</p>
+        <a href="#" class="btn btn-primary">Læs mere om firma-arrangementer</a>
       </div>
     </div>
   </div>

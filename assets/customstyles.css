@@ -122,16 +122,12 @@ body {
 }
 
 .feature-box h3 {
-<<<<<<< HEAD
 	font-size: 1.1em;
 	color: #666;
 }
 
 .feature-box h4 {
 	font-size: 1.75em;
-=======
-
->>>>>>> 10a87def0df046594281c6e84f56dc9de8861367
 }
 
 .feature-image {
@@ -351,6 +347,14 @@ input[type=submit] {
   float: left;
   width: 75%;
   margin-top: 6px;
+}
+
+.checkbox-span {
+	margin-left: 7px;
+}
+
+.btn-space {
+	margin-right: 10px;
 }
 
 /* ---------------------
