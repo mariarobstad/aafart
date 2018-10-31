@@ -122,7 +122,12 @@ body {
 }
 
 .feature-box h3 {
-	
+	font-size: 1.1em;
+	color: #666;
+}
+
+.feature-box h4 {
+	font-size: 1.75em;
 }
 
 .feature-image {
