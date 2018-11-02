@@ -194,7 +194,7 @@ img {
 
 .event-caption h5 {
 	color: white;
-	font-size: 90px;
+	font-size: 75px;
 	margin: 40px;
 	text-shadow: 2px 2px #223747;
 }
@@ -265,12 +265,14 @@ events
 #event-categories {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 #event-categories .input-group {
 	align-items: flex-start;
 	width: auto;
-	margin-right: 14px;;
+	margin-right: 14px;
+	margin-top: 14px;
 }
 
 #event-categories .input-group:last-child {
@@ -456,7 +458,7 @@ break points, etc
 	}
 
 	.event-caption h5 {
-		font-size: 75px;
+		font-size: 65px;
 		margin: 30px;
 	}
 }
