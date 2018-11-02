@@ -87,6 +87,7 @@ body {
 
 #rutevejl {
 	width: 100%;
+	max-width: 100%;
 }
 
 #language-select {
@@ -443,6 +444,21 @@ break points, etc
   #firma, #third-card-event {
   	display: none;
   }
+
+  .front-caption h5 {
+	font-size: 40px;
+	margin: 20px;
+	}
+
+	.front-caption p {
+		font-size: 20px;
+		margin: 20px;
+	}
+
+	.event-caption h5 {
+		font-size: 75px;
+		margin: 30px;
+	}
 }
 
 
@@ -451,4 +467,5 @@ break points, etc
   .dropdown-menu {
     margin-top: 0; // fixes closing on slow mouse transition
   }
+  
 }
